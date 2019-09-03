@@ -1,0 +1,16 @@
+[package]
+name = "async-learn"
+version = "0.1.0"
+authors = ["Dima Razumovschii <dima.py@wattle-wallet.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { git = "https://github.com/tokio-rs/tokio"}
+async-std = "0.99.4"
+futures-preview = { version = "=0.3.0-alpha.18", features = ["async-await", "nightly"] }
+rand = "0.7.0"
+async-trait = "0.1.11"
+
+
